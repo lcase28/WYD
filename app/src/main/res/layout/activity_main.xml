@@ -10,25 +10,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.wyd.MainActivity">
 
-
     <Button
-        android:text="Sign Up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_alignTop="@+id/button"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
         android:layout_marginTop="58dp"
         android:id="@+id/button2"
         android:onClick="signUp"/>
+=======
+        android:text="@string/button_signup"
+        android:id="@+id/signupbutton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp" />
+>>>>>>> bb5c23a3162c97e33d3ca419c11d9071c9f1304d
 
     <Button
-        android:text="Log In"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="179dp"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:text="@string/button_signin"
+        android:id="@+id/signinbutton"
+        android:onClick="signIn"
+        android:layout_alignBottom="@+id/signupbutton"
+        android:layout_alignLeft="@+id/signupbutton"
+        android:layout_alignStart="@+id/signupbutton"
+        android:layout_marginBottom="63dp" />
 </RelativeLayout>
 
