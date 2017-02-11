@@ -19,7 +19,8 @@
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
         android:layout_marginTop="58dp"
-        android:id="@+id/button2" />
+        android:id="@+id/button2"
+        android:onClick="signUp"/>
 
     <Button
         android:text="Log In"
